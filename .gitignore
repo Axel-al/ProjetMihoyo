@@ -1,0 +1,5 @@
+# Ignore the directory for Visual Studio Code settings
+.vscode/
+
+# Ignore the /Config/dev.ini file
+/Config/dev.ini
