@@ -3,3 +3,14 @@
 
 # Ignore the /Config/dev.ini file
 /Config/dev.ini
+
+# Ignore all subdirectories inside public/img
+/public/img/*/
+
+# Python
+# Ignore the python cache
+*/__pycache__/
+*.pyc
+
+# Ignore the python virtual environnement
+.venv/

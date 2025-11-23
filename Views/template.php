@@ -2,22 +2,27 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="public/css/main.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?= $this->e($title) ?></title>
+    <link rel="stylesheet" href="<?= Config\Paths::publicUrl() ?>/css/main.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title><?= $this->e($title ?? 'App') ?></title>
+
 </head>
 <body>
-<header>
-    <!-- Menu -->
-    <nav>
-    </nav>
-</header>
-<!-- #contenu -->
-<main id="contenu">
-<?=$this->section('content')?>
-</main>
-<footer>
+    <header>
+        <nav>
+            <!-- TODO: menu -->
+        </nav>
+    </header>
 
-</footer>
+    <main id="contenu">
+        <?= $this->section('content') ?>
+    </main>
+
+    <footer>
+        <!-- TODO: footer -->
+    </footer>
+
+    <!-- Slot pour scripts page -->
+    <?= $this->section('scripts') ?>
 </body>
 </html>

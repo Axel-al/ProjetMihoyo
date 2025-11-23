@@ -1,0 +1,956 @@
+[
+    {
+        "name": "Aino",
+        "element": "Hydro",
+        "unitclass": "Épée à deux mains",
+        "origin": "Nod-Krai",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Aino_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Une enfant prodige de Nod-Krai et fondatrice de l’atelier Clink-Clank Krumkake ; elle a construit Ineffa et considère ses machines comme sa famille."
+    },
+    {
+        "name": "Albedo",
+        "element": "Géo",
+        "unitclass": "Épée à une main",
+        "origin": "Mondstadt",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Albedo_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Humain synthétique et maître alchimiste des Chevaliers de Favonius ; un chercheur calme poursuivant des connaissances obscures avec une curiosité méthodique."
+    },
+    {
+        "name": "Alhaitham",
+        "element": "Dendro",
+        "unitclass": "Épée à une main",
+        "origin": "Sumeru",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Alhaitham_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Scribe de l’Akademiya de Sumeru, issu du Haravatat ; un rationaliste brillant et direct qui préfère la logique à la politique."
+    },
+    {
+        "name": "Aloy",
+        "element": "Cryo",
+        "unitclass": "Arc",
+        "origin": null,
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Aloy_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Chasseuse issue du crossover Horizon ; archère aguerrie et survivante, invitée à Teyvat lors d’une collaboration limitée."
+    },
+    {
+        "name": "Amber",
+        "element": "Pyro",
+        "unitclass": "Arc",
+        "origin": "Mondstadt",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Amber_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "La dernière éclaireuse des Chevaliers de Favonius à Mondstadt — joyeuse, débrouillarde et toujours prête à aider."
+    },
+    {
+        "name": "Arataki Itto",
+        "element": "Géo",
+        "unitclass": "Épée à deux mains",
+        "origin": "Inazuma",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Arataki_Itto_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Le bruyant chef oni du gang Arataki — exubérant, loyal et fier, avec un coeur encore plus grand que son casier."
+    },
+    {
+        "name": "Arlecchino",
+        "element": "Pyro",
+        "unitclass": "Arme d'hast",
+        "origin": "Snezhnaya",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Arlecchino_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "« La Servante », Quatrième Exécuteur Fatui et directrice de la Maison de l’Hearth — une ‘Père’ exigeante envers ses enfants adoptifs."
+    },
+    {
+        "name": "Baizhu",
+        "element": "Dendro",
+        "unitclass": "Catalyseur",
+        "origin": "Liyue",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Baizhu_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Propriétaire de la Pharmacie Bubu et gardien de Qiqi ; un médecin Dendro accompagné de Changsheng, en quête d’un remède pour alléger son fardeau."
+    },
+    {
+        "name": "Barbara",
+        "element": "Hydro",
+        "unitclass": "Catalyseur",
+        "origin": "Mondstadt",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Barbara_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Diaconesse de l’Église de Favonius et idole de Mondstadt ; une soigneuse Hydro optimiste avec une énergie inépuisable."
+    },
+    {
+        "name": "Beidou",
+        "element": "Électro",
+        "unitclass": "Épée à deux mains",
+        "origin": "Liyue",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/c/c0/Beidou_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Capitaine de la flotte du Crux, réputée comme la « Seigneur des mers non couronnée » — intrépide, franche et redoutable."
+    },
+    {
+        "name": "Bennett",
+        "element": "Pyro",
+        "unitclass": "Épée à une main",
+        "origin": "Mondstadt",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/c/c5/Bennett_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Aventurier toujours optimiste et unique membre de la ‘Benny’s Adventure Team’, suivi partout par une malchance catastrophique."
+    },
+    {
+        "name": "Candace",
+        "element": "Hydro",
+        "unitclass": "Arme d'hast",
+        "origin": "Sumeru",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Candace_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Gardienne du village d’Aaru et descendante d’Al-Ahmar ; accueillante envers les invités, implacable envers les fauteurs de troubles."
+    },
+    {
+        "name": "Charlotte",
+        "element": "Cryo",
+        "unitclass": "Catalyseur",
+        "origin": "Fontaine",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Charlotte_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Reporter du Steambird originaire de Fontaine — infatigable, curieuse et intrépide lorsqu’il s’agit de rechercher la vérité."
+    },
+    {
+        "name": "Chasca",
+        "element": "Anémo",
+        "unitclass": "Arc",
+        "origin": "Natlan",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Chasca_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Pacificateur Anémo du clan Fleur-Plume de Natlan, un médiateur résilient marqué par les épreuves et les guerres du Gardien Nocturne."
+    },
+    {
+        "name": "Chevreuse",
+        "element": "Pyro",
+        "unitclass": "Arme d'hast",
+        "origin": "Fontaine",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/6/65/Chevreuse_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Capitaine de la Patrouille Spéciale de la Maison Gardiennage ; une officier stricte au sens de la justice ferme et peu conventionnel."
+    },
+    {
+        "name": "Chiori",
+        "element": "Géo",
+        "unitclass": "Épée à une main",
+        "origin": "Inazuma",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Chiori_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Styliste originaire d’Inazuma dirigeant la boutique Chioriya à Fontaine ; ambitieuse, exigeante et prête à briser les conventions."
+    },
+    {
+        "name": "Chongyun",
+        "element": "Cryo",
+        "unitclass": "Épée à deux mains",
+        "origin": "Liyue",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Chongyun_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Exorciste de Liyue né avec une énergie yang pure écrasante ; calme mais étonnamment vulnérable à la chaleur et aux émotions fortes."
+    },
+    {
+        "name": "Citlali",
+        "element": "Cryo",
+        "unitclass": "Catalyseur",
+        "origin": "Natlan",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Citlali_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Chamane respectée de Natlan connue sous le nom de ‘Grand-mère Itztli’, grande prêtresse dotée d’une clairvoyance affûtée et d’une sagesse directe."
+    },
+    {
+        "name": "Clorinde",
+        "element": "Électro",
+        "unitclass": "Épée à une main",
+        "origin": "Fontaine",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Clorinde_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Championne duelliste la plus puissante de Fontaine — une escrimeuse Électro irréprochable qui jadis protégeait Furina."
+    },
+    {
+        "name": "Collei",
+        "element": "Dendro",
+        "unitclass": "Arc",
+        "origin": "Sumeru",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/7/78/Collei_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Ancienne sujet d’expériences devenue apprentie garde-ranger de la forêt d’Avidya ; sincère et reconstruisant sa vie grâce à ses amis."
+    },
+    {
+        "name": "Cyno",
+        "element": "Électro",
+        "unitclass": "Arme d'hast",
+        "origin": "Sumeru",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Cyno_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Le Grand Mahamatra de Sumeru — un gardien inflexible de la loi, passionné par les mauvais jeux de mots et le TCG Invocation des Génies."
+    },
+    {
+        "name": "Dahlia",
+        "element": "Hydro",
+        "unitclass": "Épée à une main",
+        "origin": "Mondstadt",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Dahlia_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Diaconesse Hydro de l’Église de Favonius et Héraut de Barbatos, offrant conseils et chants à Mondstadt."
+    },
+    {
+        "name": "Dehya",
+        "element": "Pyro",
+        "unitclass": "Épée à deux mains",
+        "origin": "Sumeru",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Dehya_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "La légendaire Eremite « Crinière de Flamme » — une mercenaire farouche déterminée à rendre espoir au désert."
+    },
+    {
+        "name": "Diluc",
+        "element": "Pyro",
+        "unitclass": "Épée à deux mains",
+        "origin": "Mondstadt",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Diluc_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Propriétaire du Domaine de l’Aube et protecteur nocturne de Mondstadt ; raffiné en public, implacable contre les menaces."
+    },
+    {
+        "name": "Diona",
+        "element": "Cryo",
+        "unitclass": "Arc",
+        "origin": "Mondstadt",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Diona_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Fille d’un chasseur de Springvale et barmaid du Chat-qui-chante, qui déteste l’alcool — ironiquement réputée pour ses cocktails parfaits."
+    },
+    {
+        "name": "Dori",
+        "element": "Électro",
+        "unitclass": "Épée à deux mains",
+        "origin": "Sumeru",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Dori_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Marchande avisée de Sumeru spécialisée dans les objets rares ; flamboyante, ingénieuse et toujours prête à conclure un marché."
+    },
+    {
+        "name": "Escoffier",
+        "element": "Cryo",
+        "unitclass": "Arme d'hast",
+        "origin": "Fontaine",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Escoffier_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Maître manieur de lance de Fontaine, lié à l’héritage culinaire du pays — discipliné, raffiné et d’une précision remarquable."
+    },
+    {
+        "name": "Eula",
+        "element": "Cryo",
+        "unitclass": "Épée à deux mains",
+        "origin": "Mondstadt",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Eula_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "La Chevaleresse de l’Écume de Mondstadt, descendante du clan Lawrence qui se bat pour réécrire sa propre réputation."
+    },
+    {
+        "name": "Faruzan",
+        "element": "Anémo",
+        "unitclass": "Arc",
+        "origin": "Sumeru",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Faruzan_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Érudite du Haravatat perdue pendant un siècle puis revenue à Sumeru ; experte en mécanismes anciens avec un esprit académique strict."
+    },
+    {
+        "name": "Fischl",
+        "element": "Électro",
+        "unitclass": "Arc",
+        "origin": "Mondstadt",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/5/54/Fischl_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Aventurière se présentant comme la « Prinzessin der Verurteilung » ; avec Oz, elle transforme ses fantasmes en réalité sur le champ de bataille."
+    },
+    {
+        "name": "Flins",
+        "element": "Électro",
+        "unitclass": "Arme d'hast",
+        "origin": "Nod-Krai",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Flins_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Lancier Électro de Nod-Krai — stoïque et dévouée, forgée par des hivers impitoyables et des choix encore plus durs."
+    },
+    {
+        "name": "Fréminet",
+        "element": "Cryo",
+        "unitclass": "Épée à deux mains",
+        "origin": "Fontaine",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Freminet_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Plongeur taciturne de Fontaine et artisan talentueux ; mécaniquement doué et farouchement protecteur envers ses frères et sœurs."
+    },
+    {
+        "name": "Furina",
+        "element": "Hydro",
+        "unitclass": "Épée à une main",
+        "origin": "Fontaine",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Furina_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Ancienne ‘Archon’ publique de Fontaine et artiste accomplie ; elle apprend l’humilité tout en protégeant sa nation sous une nouvelle forme."
+    },
+    {
+        "name": "Gaming",
+        "element": "Pyro",
+        "unitclass": "Épée à deux mains",
+        "origin": "Liyue",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Gaming_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Cascadeur chaleureux de Liyue pratiquant les arts Wushou — loyal, enthousiaste et intrépide en cas de besoin."
+    },
+    {
+        "name": "Ganyu",
+        "element": "Cryo",
+        "unitclass": "Arc",
+        "origin": "Liyue",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Ganyu_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Mi-qilin adepte servant les Sept Étoiles de Liyue ; appliquée, douce et silencieusement redoutable avec un arc."
+    },
+    {
+        "name": "Gorou",
+        "element": "Géo",
+        "unitclass": "Arc",
+        "origin": "Inazuma",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Gorou_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Jeune général de Watatsumi — inébranlable, encourageant et d’une loyauté absolue envers ses troupes."
+    },
+    {
+        "name": "Hu Tao",
+        "element": "Pyro",
+        "unitclass": "Arme d'hast",
+        "origin": "Liyue",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Hu_Tao_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "77ᵉ directrice du Funérarium Wangsheng — poétesse espiègle qui traite la vie et la mort avec un même soin."
+    },
+    {
+        "name": "Iansan",
+        "element": "Électro",
+        "unitclass": "Arme d'hast",
+        "origin": "Natlan",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Iansan_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Jeune guerrière fougueuse de Natlan, façonnée par sa culture martiale ; petite de taille, immense d’esprit."
+    },
+    {
+        "name": "Ifa",
+        "element": "Anémo",
+        "unitclass": "Catalyseur",
+        "origin": "Natlan",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Ifa_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Un adepte Anémo de Natlan dont le vent paisible dissimule des instincts rapides et une discipline rituelle."
+    },
+    {
+        "name": "Ineffa",
+        "element": "Électro",
+        "unitclass": "Arme d'hast",
+        "origin": "Nod-Krai",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Ineffa_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Guerrière d’hast de précision née de l’ingéniosité d’Aino — méthodique, adaptable et étrangement humaine."
+    },
+    {
+        "name": "Jean",
+        "element": "Anémo",
+        "unitclass": "Épée à une main",
+        "origin": "Mondstadt",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Jean_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Maître intérimaire des Chevaliers de Favonius — infatigable, principielle et d’une fiabilité sans faille."
+    },
+    {
+        "name": "Kachina",
+        "element": "Géo",
+        "unitclass": "Arme d'hast",
+        "origin": "Natlan",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Kachina_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Guerrière Géo de Natlan dont la détermination est forgée par les traditions du clan et les épreuves du feu et de la pierre."
+    },
+    {
+        "name": "Kaedehara Kazuha",
+        "element": "Anémo",
+        "unitclass": "Épée à une main",
+        "origin": "Inazuma",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Kaedehara_Kazuha_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Samouraï errant d’Inazuma et poète qui suit le vent, en quête de liberté et de calme rédemption."
+    },
+    {
+        "name": "Kaeya",
+        "element": "Cryo",
+        "unitclass": "Épée à une main",
+        "origin": "Mondstadt",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Kaeya_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Capitaine de cavalerie charismatique de Mondstadt ; stratège avisé qui garde ses véritables motivations secrètes."
+    },
+    {
+        "name": "Kamisato Ayaka",
+        "element": "Cryo",
+        "unitclass": "Épée à une main",
+        "origin": "Inazuma",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Kamisato_Ayaka_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Élégante héritière du clan Kamisato — une épéiste gracieuse qui sert Inazuma avec dignité."
+    },
+    {
+        "name": "Kamisato Ayato",
+        "element": "Hydro",
+        "unitclass": "Épée à une main",
+        "origin": "Inazuma",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Kamisato_Ayato_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Commissaire du Yashiro et chef du clan Kamisato — courtois, calculateur et fin tacticien politique."
+    },
+    {
+        "name": "Kaveh",
+        "element": "Dendro",
+        "unitclass": "Épée à deux mains",
+        "origin": "Sumeru",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Kaveh_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Architecte de génie mais criblé de dettes à Sumeru ; idéaliste guidé par la beauté et l’empathie."
+    },
+    {
+        "name": "Keqing",
+        "element": "Électro",
+        "unitclass": "Épée à une main",
+        "origin": "Liyue",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Keqing_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "L’Yuheng des Sept Étoiles de Liyue — décisive, pragmatique et sceptique quant à la dépendance envers les dieux."
+    },
+    {
+        "name": "Kinich",
+        "element": "Dendro",
+        "unitclass": "Épée à deux mains",
+        "origin": "Natlan",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Kinich_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Champion Dendro lié aux rites solaires de Natlan — un gardien inébranlable, enraciné dans la tradition."
+    },
+    {
+        "name": "Kirara",
+        "element": "Dendro",
+        "unitclass": "Épée à une main",
+        "origin": "Inazuma",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Kirara_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Nekomata messagère pour Komaniya Express ; rapide, serviable et extrêmement professionnelle."
+    },
+    {
+        "name": "Klee",
+        "element": "Pyro",
+        "unitclass": "Catalyseur",
+        "origin": "Mondstadt",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Klee_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Prodige explosive de Mondstadt qui considère les ‘boums’ comme un art, sous l’œil attentif de Jean."
+    },
+    {
+        "name": "Kujou Sara",
+        "element": "Électro",
+        "unitclass": "Arc",
+        "origin": "Inazuma",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Kujou_Sara_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Officière tengu de la Commission Tenryou — stricte dans le devoir et inébranlable dans l’honneur."
+    },
+    {
+        "name": "Kuki Shinobu",
+        "element": "Électro",
+        "unitclass": "Épée à une main",
+        "origin": "Inazuma",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Kuki_Shinobu_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Adjointe ingénieuse du gang Arataki ; juriste astucieuse capable de contenir le chaos."
+    },
+    {
+        "name": "Lan Yan",
+        "element": "Anémo",
+        "unitclass": "Catalyseur",
+        "origin": "Liyue",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Lan_Yan_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Invocatrice Anémo de Liyue dont la voix posée et les brises rapides maintiennent les équipes en sécurité."
+    },
+    {
+        "name": "Lauma",
+        "element": "Dendro",
+        "unitclass": "Catalyseur",
+        "origin": "Nod-Krai",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Lauma_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Mystique Dendro de Nod-Krai ; sereine en surface, inflexible lorsqu’il s’agit de protéger la nature."
+    },
+    {
+        "name": "Layla",
+        "element": "Cryo",
+        "unitclass": "Épée à une main",
+        "origin": "Sumeru",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/Layla_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Étudiante Rtawahist épuisée par le manque de sommeil ; timide mais brillante lorsque les étoiles s’alignent."
+    },
+    {
+        "name": "Lisa",
+        "element": "Électro",
+        "unitclass": "Catalyseur",
+        "origin": "Mondstadt",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Lisa_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Bibliothécaire décontractée de Mondstadt, ancienne prodige de Sumeru préférant le confort à l’audace imprudente."
+    },
+    {
+        "name": "Lynette",
+        "element": "Anémo",
+        "unitclass": "Épée à une main",
+        "origin": "Fontaine",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Lynette_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Partenaire silencieuse de Lyney — observatrice, efficace et gracieuse même loin des projecteurs."
+    },
+    {
+        "name": "Lyney",
+        "element": "Pyro",
+        "unitclass": "Arc",
+        "origin": "Fontaine",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Lyney_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Magicien vedette de Fontaine, dont le charme masque des plans minutieusement préparés et des nerfs d’acier."
+    },
+    {
+        "name": "Mavuika",
+        "element": "Pyro",
+        "unitclass": "Épée à deux mains",
+        "origin": "Natlan",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Mavuika_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Redoutable combattante Pyro de Natlan — fière, ardente et forgée pour la première ligne."
+    },
+    {
+        "name": "Mika",
+        "element": "Cryo",
+        "unitclass": "Arme d'hast",
+        "origin": "Mondstadt",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Mika_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Géomètre et éclaireur de Favonius ; poli, assidu et habile aussi bien avec une carte qu’avec une lance."
+    },
+    {
+        "name": "Mona",
+        "element": "Hydro",
+        "unitclass": "Catalyseur",
+        "origin": "Mondstadt",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Mona_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Astrologue recherchant la vérité plutôt que le luxe — franche, brillante, mais toujours fauchée."
+    },
+    {
+        "name": "Mualani",
+        "element": "Hydro",
+        "unitclass": "Catalyseur",
+        "origin": "Natlan",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Mualani_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Invocatrice Hydro insouciante de Natlan dont les mouvements fluides rappellent la mer qu’elle chérit."
+    },
+    {
+        "name": "Nahida",
+        "element": "Dendro",
+        "unitclass": "Catalyseur",
+        "origin": "Sumeru",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Nahida_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "La Petite Seigneur Kusanali, Archon Dendro — curieuse, bienveillante et dévouée à guider les esprits de Sumeru."
+    },
+    {
+        "name": "Navia",
+        "element": "Géo",
+        "unitclass": "Épée à deux mains",
+        "origin": "Fontaine",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Navia_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Cheffe de la Spina di Rosula — élégante tireuse de Fontaine qui recherche la justice avec compassion."
+    },
+    {
+        "name": "Nefer",
+        "element": "Dendro",
+        "unitclass": "Catalyseur",
+        "origin": "Nod-Krai",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Nefer_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Érudit Dendro de Nod-Krai, patient et perceptif, puisant sa force dans les forêts silencieuses."
+    },
+    {
+        "name": "Neuvillette",
+        "element": "Hydro",
+        "unitclass": "Catalyseur",
+        "origin": "Fontaine",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Neuvillette_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Iudex de Fontaine et souverain draconique — arbitre réservé qui équilibre loi, vérité et marées."
+    },
+    {
+        "name": "Nilou",
+        "element": "Hydro",
+        "unitclass": "Épée à une main",
+        "origin": "Sumeru",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Nilou_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Danseuse adorée du Théâtre Zubayr — une âme douce dont les pas rendent hommage aux dieux et au peuple de Sumeru."
+    },
+    {
+        "name": "Ningguang",
+        "element": "Géo",
+        "unitclass": "Catalyseur",
+        "origin": "Liyue",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Ningguang_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "La Tianquan des Sept Étoiles de Liyue — entrepreneuse visionnaire qui bâtit fortunes et palais flottants."
+    },
+    {
+        "name": "Nomade",
+        "element": "Anémo",
+        "unitclass": "Catalyseur",
+        "origin": "Sumeru",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Wanderer_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Poupée sans passé, désormais en quête d’une voie propre portée par des vents d’emprunt."
+    },
+    {
+        "name": "Noëlle",
+        "element": "Géo",
+        "unitclass": "Épée à deux mains",
+        "origin": "Mondstadt",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Noelle_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Servante dévouée des Chevaliers de Favonius qui s’entraîne pour mériter le titre de chevalier."
+    },
+    {
+        "name": "Ororon",
+        "element": "Électro",
+        "unitclass": "Arc",
+        "origin": "Natlan",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Ororon_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Archer de Natlan chassant avec une précision aiguisée, guidé par les serments de son clan."
+    },
+    {
+        "name": "Qiqi",
+        "element": "Cryo",
+        "unitclass": "Épée à une main",
+        "origin": "Liyue",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Qiqi_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Apprentie non-morte à la Pharmacie Bubu — douce, disciplinée et dépendante de notes pour se souvenir."
+    },
+    {
+        "name": "Razor",
+        "element": "Électro",
+        "unitclass": "Épée à deux mains",
+        "origin": "Mondstadt",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Razor_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Jeune garçon élevé par les loups à l’extérieur de Mondstadt — honnête, direct et prompt comme l’éclair au combat."
+    },
+    {
+        "name": "Rosaria",
+        "element": "Cryo",
+        "unitclass": "Arme d'hast",
+        "origin": "Mondstadt",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/1/16/Rosaria_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Sœur nocturne franche de l’Église de Mondstadt — cynique, mais étonnamment protectrice."
+    },
+    {
+        "name": "Sangonomiya Kokomi",
+        "element": "Hydro",
+        "unitclass": "Catalyseur",
+        "origin": "Inazuma",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Sangonomiya_Kokomi_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Grande prêtresse de Watatsumi et stratège hors pair — penseuse calme remportant des victoires sans gaspiller d’efforts."
+    },
+    {
+        "name": "Sayu",
+        "element": "Anémo",
+        "unitclass": "Épée à deux mains",
+        "origin": "Inazuma",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Sayu_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Jeune ninja du Shuumatsuban persuadée que bien dormir est la technique secrète numéro un."
+    },
+    {
+        "name": "Sethos",
+        "element": "Électro",
+        "unitclass": "Arc",
+        "origin": "Sumeru",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Sethos_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Prodige du désert de Sumeru — érudit et archer passionné par les énigmes anciennes."
+    },
+    {
+        "name": "Shenhe",
+        "element": "Cryo",
+        "unitclass": "Arme d'hast",
+        "origin": "Liyue",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Shenhe_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Exorciste élevée parmi les adeptes ; grâce éthérée dissimulant une force terrifiante."
+    },
+    {
+        "name": "Shikanoin Heizou",
+        "element": "Anémo",
+        "unitclass": "Catalyseur",
+        "origin": "Inazuma",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Shikanoin_Heizou_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Détective libre d’esprit d’Inazuma qui résout les affaires grâce à une intuition affûtée et des coups encore plus nets."
+    },
+    {
+        "name": "Shogun Raiden",
+        "element": "Électro",
+        "unitclass": "Arme d'hast",
+        "origin": "Inazuma",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Raiden_Shogun_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "L’Archon Électro Ei, recherchant l’éternité — une divinité sereine dotée du cœur d’une guerrière."
+    },
+    {
+        "name": "Sigewinne",
+        "element": "Hydro",
+        "unitclass": "Arc",
+        "origin": "Fontaine",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Sigewinne_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Infirmière mélusine de la Forteresse de Méropide — douce au chevet, ferme dans ses principes médicaux."
+    },
+    {
+        "name": "Skirk",
+        "element": "Cryo",
+        "unitclass": "Épée à une main",
+        "origin": null,
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Skirk_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Maîtresse d’escrime recluse des profondeurs qui forma Tartaglia — mystérieuse, exigeante et d’un autre monde."
+    },
+    {
+        "name": "Sucrose",
+        "element": "Anémo",
+        "unitclass": "Catalyseur",
+        "origin": "Mondstadt",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Sucrose_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Bio-alchimiste timide travaillant sous Albedo, infiniment curieuse des petits miracles de la vie."
+    },
+    {
+        "name": "Tartaglia",
+        "element": "Hydro",
+        "unitclass": "Arc",
+        "origin": "Snezhnaya",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Tartaglia_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Childe, Onzième Exécuteur Fatui — combattant pragmatique affamé de défis dignes de lui."
+    },
+    {
+        "name": "Thomas",
+        "element": "Pyro",
+        "unitclass": "Arme d'hast",
+        "origin": "Inazuma",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Thoma_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Majordome et homme à tout faire du clan Kamisato ; amical, fiable et prompt à protéger les autres."
+    },
+    {
+        "name": "Tighnari",
+        "element": "Dendro",
+        "unitclass": "Arc",
+        "origin": "Sumeru",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Tighnari_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Ranger vigilant de la forêt d’Avidya — enseignant patient dont les conseils et les flèches atteignent toujours leur cible."
+    },
+    {
+        "name": "Varesa",
+        "element": "Électro",
+        "unitclass": "Catalyseur",
+        "origin": "Natlan",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Varesa_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Catalyseuse Électro de Natlan canalisant les tempêtes en décisions nettes et sans équivoque."
+    },
+    {
+        "name": "Venti",
+        "element": "Anémo",
+        "unitclass": "Arc",
+        "origin": "Mondstadt",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Venti_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Barde insouciant qui est en réalité Barbatos, l’Archon Anémo attaché plus que tout à la liberté."
+    },
+    {
+        "name": "Voyageur",
+        "element": "Adaptatif",
+        "unitclass": "Épée à une main",
+        "origin": null,
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Traveler_Male_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Jumelle ou jumeau venu d’un autre monde, parcourant Teyvat pour retrouver souvenirs et liens perdus."
+    },
+    {
+        "name": "Wriothesley",
+        "element": "Cryo",
+        "unitclass": "Catalyseur",
+        "origin": "Fontaine",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Wriothesley_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Duc de la Forteresse de Méropide — directeur stoïque privilégiant les résultats aux discours."
+    },
+    {
+        "name": "Xiangling",
+        "element": "Pyro",
+        "unitclass": "Arme d'hast",
+        "origin": "Liyue",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Xiangling_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Cheffe du restaurant Wanmin — cuisinière aventureuse dont l’épice et la lance sont tout aussi percutantes."
+    },
+    {
+        "name": "Xianyun",
+        "element": "Anémo",
+        "unitclass": "Catalyseur",
+        "origin": "Liyue",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Xianyun_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Forme humaine de Plume-de-Nuages — mentor aérienne appréciant les mécanismes ingénieux."
+    },
+    {
+        "name": "Xiao",
+        "element": "Anémo",
+        "unitclass": "Arme d'hast",
+        "origin": "Liyue",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Xiao_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Le Yaksha vigilant de Liyue — gardien taciturne qui combat pour que d’autres puissent se reposer."
+    },
+    {
+        "name": "Xilonen",
+        "element": "Géo",
+        "unitclass": "Épée à une main",
+        "origin": "Natlan",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Xilonen_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Épéiste Géo de Natlan dont la lame stable honore d’anciens pactes."
+    },
+    {
+        "name": "Xingqiu",
+        "element": "Hydro",
+        "unitclass": "Épée à une main",
+        "origin": "Liyue",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Xingqiu_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Héritier studieux de la Guilde de Commerce Feiyun — épéiste galant et auteur secret."
+    },
+    {
+        "name": "Xinyan",
+        "element": "Pyro",
+        "unitclass": "Épée à deux mains",
+        "origin": "Liyue",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Xinyan_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Pionnière rock’n’roll de Liyue dont la musique et les flammes embrasent les foules."
+    },
+    {
+        "name": "Yae Miko",
+        "element": "Électro",
+        "unitclass": "Catalyseur",
+        "origin": "Inazuma",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Yae_Miko_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Guuji du Grand Sanctuaire de Narukami — spirituelle, sagace et toujours trois coups d’avance."
+    },
+    {
+        "name": "Yanfei",
+        "element": "Pyro",
+        "unitclass": "Catalyseur",
+        "origin": "Liyue",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Yanfei_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Conseillère juridique avisée de Liyue — mi-adepte pesant chaque clause et chaque cause."
+    },
+    {
+        "name": "Yaoyao",
+        "element": "Dendro",
+        "unitclass": "Arme d'hast",
+        "origin": "Liyue",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Yaoyao_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Disciple bienveillante de Madame Ping, portant plus de fournitures — et de compassion — que sa taille ne le laisse penser."
+    },
+    {
+        "name": "Yelan",
+        "element": "Hydro",
+        "unitclass": "Arc",
+        "origin": "Liyue",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Yelan_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "As du renseignement de Liyue — charme trompeur masquant des calculs d’une extrême acuité."
+    },
+    {
+        "name": "Yoimiya",
+        "element": "Pyro",
+        "unitclass": "Arc",
+        "origin": "Inazuma",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Yoimiya_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Maîtresse des feux d’artifice Naganohara — esprit solaire illuminant le ciel d’Inazuma de joie."
+    },
+    {
+        "name": "Yumemizuki Mizuki",
+        "element": "Anémo",
+        "unitclass": "Catalyseur",
+        "origin": "Inazuma",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/c/c5/Yumemizuki_Mizuki_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Mystique d’Inazuma dont les arts vaporeux brouillent la frontière entre talisman et tempête."
+    },
+    {
+        "name": "Yun Jin",
+        "element": "Géo",
+        "unitclass": "Arme d'hast",
+        "origin": "Liyue",
+        "rarity": 4,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Yun_Jin_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Star de l’opéra Yun-Han — interprète majestueuse au sens du rythme impeccable."
+    },
+    {
+        "name": "Zhongli",
+        "element": "Géo",
+        "unitclass": "Arme d'hast",
+        "origin": "Liyue",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Zhongli_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Sage consultant qui n’est autre que Morax sous forme mortelle — paroles mesurées, résolution profonde comme une montagne."
+    },
+    {
+        "name": "Émilie",
+        "element": "Dendro",
+        "unitclass": "Arme d'hast",
+        "origin": "Fontaine",
+        "rarity": 5,
+        "urlImg": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Emilie_Card.png/revision/latest/scale-to-width-down/536",
+        "description": "Parfumeuse de Fontaine capable de déchiffrer émotions et souvenirs par les odeurs, élégante et exigeante dans son art."
+    }
+]
