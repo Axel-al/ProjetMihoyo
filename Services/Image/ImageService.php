@@ -70,7 +70,7 @@ class ImageService {
             rename($tmpFile, $localPath);
         }
 
-        if (!is_null($displayName)) {
+        if ($displayName !== null) {
             // --- lien "parlant" ---
             $slugName = FileSystem::slug($displayName);
             $symlinkPath = $linksSysAbs . '/' . $slugName . '.' . $ext;
@@ -94,13 +94,78 @@ class ImageService {
             $name = method_exists($entity, 'getName') ? $entity->getName() : null;
             $id = method_exists($entity, 'getId') ? $entity->getId() : null;
 
-            $displayName = (!is_null($name) && !is_null($id))
+            $displayName = ($name !== null && $id !== null)
                 ? $name . '_' . $id
                 : ($name ?? $id);
 
             $localUrl = self::downloadImage($url, $displayName, $group);
-            if (!is_null($localUrl))
+            if ($localUrl !== null)
                 $entity->setUrlImg($localUrl);
         }
+    }
+
+    /**
+     * Prépare les thumbnails pour une liste d'entitées (getUrlImg / getId / optionnel getName).
+     * 
+     * Retourne trois tableaux contenant les informations des thumbnails :
+     *     - ceux déjà existants,
+     *     - ceux en attente de génération,
+     *     - ceux ayant rencontré une erreur.
+     *
+     * @param iterable $entities
+     * @param int      $width
+     * @param int      $height
+     *
+     * @return array{
+     *     existing: array<string, array{
+     *         thumbExists: true,
+     *         webUrl: string,
+     *         jobId: string,
+     *         linkWeb: ?string
+     *     }>,
+     *     pending:  array<string, array{
+     *         thumbExists: false,
+     *         webUrl: string,
+     *         jobId: string,
+     *         linkWeb: ?string
+     *     }>,
+     *     errors:  array<string, array{
+     *         thumbExists: false,
+     *         webUrl: string,
+     *         jobId: null,
+     *         linkWeb: null
+     *     }>
+     * }
+     */
+    public static function prepareThumbnailsForEntities(iterable $entities, int $width = 480, int $height = 600): array {
+        $existing = [];
+        $pending = [];
+        $errors = [];
+        
+        foreach ($entities as $entity) {
+            if (!method_exists($entity, 'getUrlImg') || !method_exists($entity, 'getId'))
+                continue;
+
+            $urlImg = $entity->getUrlImg();
+            $id = $entity->getId();
+            $name = method_exists($entity, 'getName') ? $entity->getName() : null;
+
+            $info = ThumbnailManager::getOrQueueThumbnail($urlImg, $width, $height, $name);
+            
+            if ($info['jobId'] !== null) {
+                if ($info['thumbExists'])
+                    $existing[$id] = $info;
+                else
+                    $pending[$id] = $info;
+            } else {
+                $errors[$id] = $info;
+            }
+        }
+
+        return [
+            'existing' => $existing,
+            'pending' => $pending,
+            'errors' => $errors
+        ];
     }
 }

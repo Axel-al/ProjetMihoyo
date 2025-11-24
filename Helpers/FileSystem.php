@@ -1,6 +1,8 @@
 <?php
 namespace Helpers;
 
+use Config\Paths;
+
 class FileSystem {
     public static function ensureDir(string $absDir): void {
         if (!is_dir($absDir)) {
@@ -53,5 +55,29 @@ class FileSystem {
             return false;
         }
         return true;
+    }
+
+    /**
+     * Convertit une URL web (basée sur publicUrl) en chemin système
+     * en remplaçant le préfixe web par le préfixe système.
+     * Si ce n'est pas possible, retourne null.
+     */
+    public static function webToSysPath(string $webPath): ?string {
+        $webRoot = Paths::publicUrl();
+
+        // Cas où publicUrl() == "", on exige un chemin root-relative
+        if ($webRoot === '') {
+            if ($webPath === '' || $webPath[0] !== '/')
+                return null;
+            return Paths::publicSysAbs() . $webPath;
+        }
+
+        // Le chemin web doit commencer par publicUrl()
+        if (!str_starts_with($webPath, $webRoot))
+            return null;
+
+        // On prend la partie après publicUrl()
+        $suffix = mb_substr($webPath, \strlen($webRoot), encoding: 'UTF-8');
+        return Paths::publicSysAbs() . $suffix;
     }
 }

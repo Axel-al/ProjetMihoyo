@@ -2,7 +2,9 @@
 namespace Helpers;
 
 class ViewStyle {
-    private static function normalizeKey(string $value): string|false {
+    public static function normalizeKey(?string $value): string|false|null {
+        if ($value === null) return null;
+
         $ascii = Text::toAscii($value);
         if ($ascii === false)
             return false;

@@ -24,5 +24,12 @@
 
     <!-- Slot pour scripts page -->
     <?= $this->section('scripts') ?>
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll("table.xdebug-error").forEach(el => {
+            el.style.setProperty("color", "black", "important");
+        });
+    });
+    </script>
 </body>
 </html>

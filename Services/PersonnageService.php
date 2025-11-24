@@ -2,6 +2,7 @@
 namespace Services;
 
 use Models\Personnage;
+use Helpers\ViewStyle;
 
 class PersonnageService {
     public static function validatePersonnage(Personnage $personnage): void {
@@ -14,8 +15,8 @@ class PersonnageService {
         if (!$personnage->isInitialized("element") || empty($personnage->getElement())) {
             $errors[] = "The element of the character cannot be empty.";
         } else {
-            $validElements = ["Anémo", "Géo", "Électro", "Dendro", "Hydro", "Pyro", "Cryo", "Adaptatif"];
-            if (!in_array($personnage->getElement(), $validElements)) {
+            $validElements = ["anemo", "geo", "electro", "dendro", "hydro", "pyro", "cryo", "adaptatif"];
+            if (!in_array(ViewStyle::normalizeKey($personnage->getElement()), $validElements)) {
                 $errors[] = "The element of the character is invalid.";
             }
         }
@@ -23,8 +24,8 @@ class PersonnageService {
         if (!$personnage->isInitialized("unitclass") || empty($personnage->getUnitclass())) {
             $errors[] = "The class of the character cannot be empty.";
         } else {
-            $validClasses = ["Épée à une main", "Épée à deux mains", "Arme d'hast", "Catalyseur","Arc"];
-            if (!in_array($personnage->getUnitclass(), $validClasses)) {
+            $validClasses = ["epee a une main", "epee a deux mains", "arme d'hast", "catalyseur","arc"];
+            if (!in_array(ViewStyle::normalizeKey($personnage->getUnitclass()), $validClasses)) {
                 $errors[] = "The class of the character is invalid.";
             }
         }
@@ -35,8 +36,8 @@ class PersonnageService {
             $errors[] = "The rarity of the character must be between 4 and 5.";
         }
 
-        $validOrigins = [null, "Mondstadt", "Liyue", "Inazuma", "Sumeru", "Fontaine", "Natlan", "Nod-Krai", "Snezhnaya"];
-        if (!in_array($personnage->getOrigin(), $validOrigins)) {
+        $validOrigins = [null, "mondstadt", "liyue", "inazuma", "sumeru", "fontaine", "natlan", "nod-krai", "snezhnaya"];
+        if (!in_array(ViewStyle::normalizeKey($personnage->getOrigin()), $validOrigins)) {
             $errors[] = "The origin of the character is invalid.";
         }
 

@@ -16,7 +16,7 @@ class DatabaseInitializer extends BasePDODAO {
     
     private function createPersonnageTable(bool $defaultPersonnages = true) : void {
         $test = $this->execRequest("
-            CREATE TABLE PERSONNAGE (
+            CREATE TABLE IF NOT EXISTS PERSONNAGE (
                 id VARCHAR(13) primary key,
                 name VARCHAR(255) NOT NULL,
                 element VARCHAR(255) NOT NULL,

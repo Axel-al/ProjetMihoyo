@@ -17,6 +17,14 @@ class MainController {
         $personnageDAO = new PersonnageDAO();
         $listPersonnages = PersonnageService::fromRawToListPersonnages($personnageDAO->getAll());
         ImageService::prepareEntitiesImages($listPersonnages, 'personnages');
-        echo $this->templates->render('home', array_merge(['gameName' => 'Genshin Impact'], compact('listPersonnages')));
+        $infosThumbnails = ImageService::prepareThumbnailsForEntities($listPersonnages);
+        echo $this->templates->render('home',
+            [
+                'gameName' => 'Genshin Impact'
+                , ...compact(
+                'listPersonnages',
+                'infosThumbnails'
+            )]
+        );
     }
 }
