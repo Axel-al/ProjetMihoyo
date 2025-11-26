@@ -46,7 +46,7 @@ class PersonnageService {
         }
 
         if (!empty($errors)) {
-            throw new \Exception(implode(" ; ", $errors));
+            throw new \Exception("Erreur(s) : " . implode(" ; ", $errors));
         }
     }
 

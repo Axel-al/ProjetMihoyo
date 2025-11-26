@@ -10,6 +10,5 @@ $loader->addNamespace('Config', __DIR__ . '/Config');
 $loader->addNamespace('Models', __DIR__ . '/Models');
 $loader->addNamespace('Services', __DIR__ . '/Services');
 
-$templates = new \League\Plates\Engine(Config\Paths::projectRoot() . '/Views');
-$controller = new \Controllers\MainController($templates);
-$controller->index();
+$router = new Controllers\Router\Router();
+$router->routing($_GET, $_POST);

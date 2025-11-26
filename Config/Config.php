@@ -13,7 +13,7 @@ class Config {
         }
         
         if ($required) {
-            throw new Exception("Missing required config key: " . $nom);
+            throw new Exception("Erreur : la clef de config requise " . $nom . "manque.");
         }
 
         return $valeurParDefaut;
@@ -27,7 +27,7 @@ class Config {
                 $cheminFichier = __DIR__ . "/dev.ini";
             }
             if (!file_exists($cheminFichier)) {
-                throw new Exception("Aucun fichier de configuration trouvé");
+                throw new Exception("Erreur : Aucun fichier de configuration trouvé");
             }
             else {
                 self::$param = parse_ini_file($cheminFichier);

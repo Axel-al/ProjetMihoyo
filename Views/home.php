@@ -1,5 +1,6 @@
 <?php
-$this->layout('template', ['title' => 'TP Mihoyo - Home']);
+$gameName ??= 'Genshin Impact';
+$this->layout('template', ['page' => $page ?? 'Accueil', 'gameName' => $gameName, 'message' => $message ?? null]);
 
 $elementColors = [
     'pyro' => ['bg' => '#ff6a00'],
@@ -14,8 +15,8 @@ $elementColors = [
 ['existing' => $existing, 'pending' => $pending, 'errors' => $thErrors] = $infosThumbnails;
 ?>
 
-<h1>Collection <?= $this->e($gameName ?? 'Genshin Impact') ?></h1>
-<p class="hint">Survole une carte pour voir la face arrière. Nom + Élément + Rareté sont affichés sur la face avant.</p>
+<h1>Collection <?= $this->e($gameName) ?></h1>
+<p class="hint">Survoler une carte pour voir la face arrière. Nom + Élément + Rareté sont affichés sur la face avant.</p>
 
 <div class="flip-grid">
     <?php foreach ($listPersonnages ?? [] as $p): ?>
